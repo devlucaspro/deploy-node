@@ -2,8 +2,8 @@ const Sequelize = require('sequelize');
 
 // Connecting to database with sequelize
 const connection = new Sequelize('guiaperguntas', 'root', 'lu34255313', {
-  host: 'localhost',
-  dialect: 'mysql'
+  host: '52.41.36.82',
+  dialect: 'mysql',
 });
 
 module.exports = connection;
